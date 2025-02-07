@@ -1,0 +1,35 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/Engine.dir/include/vendor/imgui/imgui.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/include/vendor/imgui/imgui_demo.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/include/vendor/imgui/imgui_draw.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/include/vendor/imgui/imgui_impl_glfw.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/include/vendor/imgui/imgui_impl_opengl3.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/include/vendor/imgui/imgui_tables.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/include/vendor/imgui/imgui_widgets.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/include/vendor/stb_image/stb_image.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/src/IndexBuffer.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/src/OpenGL_main.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/src/Renderer.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/src/Shader.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/src/Texture.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/src/VertexArray.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/src/VertexBuffer.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/src/path_utils.cpp.o: dyndep
+
+build CMakeFiles/Engine.dir/tests/TestClearColor.cpp.o: dyndep
+

@@ -1,0 +1,104 @@
+[
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/include/vendor/imgui/imgui.cpp.o.modmap -o CMakeFiles/Engine.dir/include/vendor/imgui/imgui.cpp.o -c /home/salinoia/Engine/include/vendor/imgui/imgui.cpp",
+  "file": "/home/salinoia/Engine/include/vendor/imgui/imgui.cpp",
+  "output": "CMakeFiles/Engine.dir/include/vendor/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/include/vendor/imgui/imgui_demo.cpp.o.modmap -o CMakeFiles/Engine.dir/include/vendor/imgui/imgui_demo.cpp.o -c /home/salinoia/Engine/include/vendor/imgui/imgui_demo.cpp",
+  "file": "/home/salinoia/Engine/include/vendor/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/Engine.dir/include/vendor/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/include/vendor/imgui/imgui_draw.cpp.o.modmap -o CMakeFiles/Engine.dir/include/vendor/imgui/imgui_draw.cpp.o -c /home/salinoia/Engine/include/vendor/imgui/imgui_draw.cpp",
+  "file": "/home/salinoia/Engine/include/vendor/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/Engine.dir/include/vendor/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/include/vendor/imgui/imgui_impl_glfw.cpp.o.modmap -o CMakeFiles/Engine.dir/include/vendor/imgui/imgui_impl_glfw.cpp.o -c /home/salinoia/Engine/include/vendor/imgui/imgui_impl_glfw.cpp",
+  "file": "/home/salinoia/Engine/include/vendor/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/Engine.dir/include/vendor/imgui/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/include/vendor/imgui/imgui_impl_opengl3.cpp.o.modmap -o CMakeFiles/Engine.dir/include/vendor/imgui/imgui_impl_opengl3.cpp.o -c /home/salinoia/Engine/include/vendor/imgui/imgui_impl_opengl3.cpp",
+  "file": "/home/salinoia/Engine/include/vendor/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/Engine.dir/include/vendor/imgui/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/include/vendor/imgui/imgui_tables.cpp.o.modmap -o CMakeFiles/Engine.dir/include/vendor/imgui/imgui_tables.cpp.o -c /home/salinoia/Engine/include/vendor/imgui/imgui_tables.cpp",
+  "file": "/home/salinoia/Engine/include/vendor/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/Engine.dir/include/vendor/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/include/vendor/imgui/imgui_widgets.cpp.o.modmap -o CMakeFiles/Engine.dir/include/vendor/imgui/imgui_widgets.cpp.o -c /home/salinoia/Engine/include/vendor/imgui/imgui_widgets.cpp",
+  "file": "/home/salinoia/Engine/include/vendor/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/Engine.dir/include/vendor/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/include/vendor/stb_image/stb_image.cpp.o.modmap -o CMakeFiles/Engine.dir/include/vendor/stb_image/stb_image.cpp.o -c /home/salinoia/Engine/include/vendor/stb_image/stb_image.cpp",
+  "file": "/home/salinoia/Engine/include/vendor/stb_image/stb_image.cpp",
+  "output": "CMakeFiles/Engine.dir/include/vendor/stb_image/stb_image.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/src/IndexBuffer.cpp.o.modmap -o CMakeFiles/Engine.dir/src/IndexBuffer.cpp.o -c /home/salinoia/Engine/src/IndexBuffer.cpp",
+  "file": "/home/salinoia/Engine/src/IndexBuffer.cpp",
+  "output": "CMakeFiles/Engine.dir/src/IndexBuffer.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/src/OpenGL_main.cpp.o.modmap -o CMakeFiles/Engine.dir/src/OpenGL_main.cpp.o -c /home/salinoia/Engine/src/OpenGL_main.cpp",
+  "file": "/home/salinoia/Engine/src/OpenGL_main.cpp",
+  "output": "CMakeFiles/Engine.dir/src/OpenGL_main.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/src/Renderer.cpp.o.modmap -o CMakeFiles/Engine.dir/src/Renderer.cpp.o -c /home/salinoia/Engine/src/Renderer.cpp",
+  "file": "/home/salinoia/Engine/src/Renderer.cpp",
+  "output": "CMakeFiles/Engine.dir/src/Renderer.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/src/Shader.cpp.o.modmap -o CMakeFiles/Engine.dir/src/Shader.cpp.o -c /home/salinoia/Engine/src/Shader.cpp",
+  "file": "/home/salinoia/Engine/src/Shader.cpp",
+  "output": "CMakeFiles/Engine.dir/src/Shader.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/src/Texture.cpp.o.modmap -o CMakeFiles/Engine.dir/src/Texture.cpp.o -c /home/salinoia/Engine/src/Texture.cpp",
+  "file": "/home/salinoia/Engine/src/Texture.cpp",
+  "output": "CMakeFiles/Engine.dir/src/Texture.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/src/VertexArray.cpp.o.modmap -o CMakeFiles/Engine.dir/src/VertexArray.cpp.o -c /home/salinoia/Engine/src/VertexArray.cpp",
+  "file": "/home/salinoia/Engine/src/VertexArray.cpp",
+  "output": "CMakeFiles/Engine.dir/src/VertexArray.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/src/VertexBuffer.cpp.o.modmap -o CMakeFiles/Engine.dir/src/VertexBuffer.cpp.o -c /home/salinoia/Engine/src/VertexBuffer.cpp",
+  "file": "/home/salinoia/Engine/src/VertexBuffer.cpp",
+  "output": "CMakeFiles/Engine.dir/src/VertexBuffer.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/src/path_utils.cpp.o.modmap -o CMakeFiles/Engine.dir/src/path_utils.cpp.o -c /home/salinoia/Engine/src/path_utils.cpp",
+  "file": "/home/salinoia/Engine/src/path_utils.cpp",
+  "output": "CMakeFiles/Engine.dir/src/path_utils.cpp.o"
+},
+{
+  "directory": "/home/salinoia/Engine/build",
+  "command": "/usr/bin/clang++ -I/home/salinoia/Engine/include -I/home/salinoia/Engine/include/vendor/stb_image -I/home/salinoia/Engine/include/vendor/glm -I/home/salinoia/Engine/include/vendor/glm/gtc -I/home/salinoia/Engine/include/vendor/imgui -I/home/salinoia/Engine/tests -isystem /usr/include/eigen3  -fcoroutines -g -std=gnu++20 @CMakeFiles/Engine.dir/tests/TestClearColor.cpp.o.modmap -o CMakeFiles/Engine.dir/tests/TestClearColor.cpp.o -c /home/salinoia/Engine/tests/TestClearColor.cpp",
+  "file": "/home/salinoia/Engine/tests/TestClearColor.cpp",
+  "output": "CMakeFiles/Engine.dir/tests/TestClearColor.cpp.o"
+}
+]
