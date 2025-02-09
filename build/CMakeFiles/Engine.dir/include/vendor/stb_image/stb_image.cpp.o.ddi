@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "CMakeFiles/Engine.dir/include/vendor/stb_image/stb_image.cpp.o"
-    }
-  ],
-  "version": 1
-}

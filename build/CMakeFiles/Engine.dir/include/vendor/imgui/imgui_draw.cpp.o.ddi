@@ -1,9 +1,0 @@
-{
-  "revision": 0,
-  "rules": [
-    {
-      "primary-output": "CMakeFiles/Engine.dir/include/vendor/imgui/imgui_draw.cpp.o"
-    }
-  ],
-  "version": 1
-}

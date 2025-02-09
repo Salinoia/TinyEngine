@@ -1,3 +1,0 @@
-/home/salinoia/Engine/build/CMakeFiles/Engine.dir
-/home/salinoia/Engine/build/CMakeFiles/edit_cache.dir
-/home/salinoia/Engine/build/CMakeFiles/rebuild_cache.dir
