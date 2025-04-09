@@ -1,7 +1,6 @@
 # TinyEngine
 
 ![OpenGL](https://img.shields.io/badge/OpenGL-3.3%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 A lightweight OpenGL-based game engine for educational purposes and graphics application development.
 
