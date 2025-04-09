@@ -12,16 +12,16 @@ struct VertexBufferElement {
 
     static int SizeofGLTypes(unsigned int gl_type) {
         static const std::unordered_map<unsigned int, int> type_sizes = {
-            {GL_BYTE, sizeof(GLbyte)},              // 1 byte
-            {GL_UNSIGNED_BYTE, sizeof(GLubyte)},    // 1 byte
-            {GL_SHORT, sizeof(GLshort)},            // 2 bytes
+            {GL_BYTE, sizeof(GLbyte)},  // 1 byte
+            {GL_UNSIGNED_BYTE, sizeof(GLubyte)},  // 1 byte
+            {GL_SHORT, sizeof(GLshort)},  // 2 bytes
             {GL_UNSIGNED_SHORT, sizeof(GLushort)},  // 2 bytes
-            {GL_INT, sizeof(GLint)},                // 4 bytes
-            {GL_UNSIGNED_INT, sizeof(GLuint)},      // 4 bytes
-            {GL_FLOAT, sizeof(GLfloat)},            // 4 bytes
-            {GL_DOUBLE, sizeof(GLdouble)},          // 8 bytes
-            {GL_HALF_FLOAT, 2},                     // OpenGL half float (16-bit)
-            {GL_FIXED, 4}                           // 4 bytes (used in OpenGL ES)
+            {GL_INT, sizeof(GLint)},  // 4 bytes
+            {GL_UNSIGNED_INT, sizeof(GLuint)},  // 4 bytes
+            {GL_FLOAT, sizeof(GLfloat)},  // 4 bytes
+            {GL_DOUBLE, sizeof(GLdouble)},  // 8 bytes
+            {GL_HALF_FLOAT, 2},  // OpenGL half float (16-bit)
+            {GL_FIXED, 4}  // 4 bytes (used in OpenGL ES)
         };
 
         auto it = type_sizes.find(gl_type);
@@ -32,16 +32,15 @@ struct VertexBufferElement {
         return -1;  // Unknown type
     }
 
-    VertexBufferElement(unsigned int t, unsigned int c, bool n)
-        : type(t), count(c), normalized(n) {}
+    VertexBufferElement(unsigned int t, unsigned int c, bool n) : type(t), count(c), normalized(n) {}
 };
 
 class VertexBufferLayout {
-   private:
+private:
     std::vector<VertexBufferElement> m_Elements;
     unsigned int m_Stride;
 
-   public:
+public:
     VertexBufferLayout() : m_Stride(0) {}
     ~VertexBufferLayout() {}
 

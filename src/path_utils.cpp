@@ -1,17 +1,22 @@
 #include <limits.h>
+
+#include <fstream>
 #include <iostream>
+#include <sstream>
+#include <string>
 #include <vector>
+
 #include "path_ultis.h"
 
-
 #ifdef _WIN32
-#include <windows.h>
-#include <wchar.h>
-#include <locale>
-#include <codecvt>
+#    include <wchar.h>
+#    include <windows.h>
+
+#    include <codecvt>
+#    include <locale>
 #else
-#include <unistd.h>
-#include <limits.h>
+#    include <limits.h>
+#    include <unistd.h>
 #endif
 
 std::string GetExecutablePath() {
@@ -41,7 +46,7 @@ std::string GetExecutablePath() {
 }
 
 #if __cplusplus >= 201703L
-#include <filesystem>
+#    include <filesystem>
 #endif
 
 std::string GetResourcePath(const std::string& resource) {
@@ -51,8 +56,8 @@ std::string GetResourcePath(const std::string& resource) {
     return resourcePath.lexically_normal().string();
 #else
     std::string exePath = GetExecutablePath();
-    size_t lastSlash = exePath.find_last_of('/\\');     // 支持 Windows 和 Unix 路径分隔符
+    size_t lastSlash = exePath.find_last_of('/\\');  // 支持 Windows 和 Unix 路径分隔符
     std::string exeDir = exePath.substr(0, lastSlash);  // 获取可执行文件所在目录
-    return exeDir + "/../" + resource;                  // 返回资源文件的绝对路径
+    return exeDir + "/../" + resource;  // 返回资源文件的绝对路径
 #endif
 }

@@ -59,6 +59,14 @@
         "codecvt": "cpp",
         "ratio": "cpp",
         "iomanip": "cpp",
-        "C_Cpp.clang_format_style": "file"
-    }
+        "C_Cpp.clang_format_style": "file",
+        "shared_mutex": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp",
+        "condition_variable": "cpp",
+        "mutex": "cpp",
+        "semaphore": "cpp",
+        "chrono": "cpp"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/g++-13"
 }

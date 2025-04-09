@@ -32,16 +32,16 @@ void VertexArray::AddBuffer(const VertexBuffer& vb, const VertexBufferLayout& la
          * )
          */
 
-        GLCall(glVertexAttribPointer(i, element.count, element.type, element.normalized,
-            layout.GetStride(),reinterpret_cast<const void*>(static_cast<uintptr_t>(offset))));  // Configure vertex attribute pointer
+        GLCall(glVertexAttribPointer(
+            i, element.count, element.type, element.normalized, layout.GetStride(), reinterpret_cast<const void*>(static_cast<uintptr_t>(offset))));  // Configure vertex attribute pointer
         offset += element.count * VertexBufferElement::SizeofGLTypes(element.type);
     }
 }
 
-void VertexArray::Bind() const{
+void VertexArray::Bind() const {
     GLCall(glBindVertexArray(m_RendererID));
 }
 
-void VertexArray::Unbind() const{
+void VertexArray::Unbind() const {
     GLCall(glBindVertexArray(0));
 }

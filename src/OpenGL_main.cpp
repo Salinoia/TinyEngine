@@ -1,32 +1,18 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
-#include <fstream>
-#include <iostream>
-#include <memory>
-#include <sstream>
-#include <string>
-
-#include "IndexBuffer.h"
 #include "Renderer.h"
 #include "Shader.h"
 #include "TestClearColor.h"
 #include "TestTexture2D.h"
 #include "Texture.h"
-#include "VertexArray.h"
-#include "VertexBuffer.h"
-#include "glm/glm.hpp"
-#include "glm/gtc/matrix_transform.hpp"
-#include "imgui.h"
-#include "imgui_impl_glfw.h"
-#include "imgui_impl_opengl3.h"
-#include "path_ultis.h"
 
 int main() {
     GLFWwindow* window;
 
     /* Initialize the library */
-    if (!glfwInit()) return -1;
+    if (!glfwInit())
+        return -1;
 
     // Running in core profile and
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -66,16 +52,11 @@ int main() {
 
         // Setup Dear ImGui style
         ImGui::StyleColorsDark();
-        // ImGui::StyleColorsLight();
 
         std::unique_ptr<test::Test> currentTest = nullptr;
-        // auto testMenu = std::make_unique<test::TestMenu>(currentTest);
 
         test::TestMenu::RegisterTest<test::TestClearColor>("Clear Color");
-        test::TestMenu::RegisterTest<test::TestTexture2D>("2D Texture", "res/shaders/Basic.shader", "res/textures/Google.png");
-
-        // testMenu->RegisterTest<test::TestClearColor>("Clear Color");
-        // testMenu->RegisterTest<test::TestTexture2D>("2D Texture", "res/shaders/Basic.shader", "res/textures/Google.png");
+        test::TestMenu::RegisterTest<test::TestTexture2D>("2D Texture", "res/shaders/Basic.shader", "res/textures/UN.png");
 
         currentTest = std::make_unique<test::TestMenu>(currentTest);
         /* Loop until the user closes the window */
@@ -92,7 +73,8 @@ int main() {
                 currentTest->OnUpdate(0.0f);
                 currentTest->OnRender();
                 ImGui::Begin("Test");
-                if (dynamic_cast<test::TestMenu*>(currentTest.get()) == nullptr && ImGui::Button("<-")) {
+                bool isMainMenu = dynamic_cast<test::TestMenu*>(currentTest.get()) != nullptr;
+                if (!isMainMenu && ImGui::Button("<-")) {
                     currentTest = std::make_unique<test::TestMenu>(currentTest);
                 }
 
