@@ -59,14 +59,10 @@ cmake --build .
 TinyEngine/
 ├── include/           # Engine headers
 │   ├── vendor/        # Third-party libraries
-├── src/
-│   ├── Core/          # Core implementation
-│   ├── Platform/      # OpenGL platform code
-│   ├── Tests/         # Test scenes
-│   └── Utils/         # Utility classes
 ├── res/               # Resource files
 │   ├── shaders/       # GLSL shaders
 │   └── textures/      # Texture assets
+├── src
 └── CMakeLists.txt     # Build configuration
 ```
 
@@ -105,31 +101,4 @@ while (!glfwWindowShouldClose(window)) {
 
 - `ESC`: Close window
 - `<-`: Return to main menu
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
-4. Ensure all tests pass
-
-## License
-
-[MIT License](LICENSE)
-
-```
-This README includes:
-1. Badges for quick project status
-2. Clear feature highlights
-3. Detailed dependency installation instructions
-4. Step-by-step build guide
-5. Visual project structure explanation
-6. Practical code example
-7. Contribution guidelines
-8. License information
-
-The structure emphasizes practical usage while maintaining technical accuracy for OpenGL developers.
-```
 
